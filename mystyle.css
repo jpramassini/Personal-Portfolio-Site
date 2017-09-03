@@ -2,7 +2,25 @@
 Google Fonts in use
 font-family: 'Nunito', sans-serif;
 font-family: 'Arvo', serif;
+font-family: 'Libre Barcode 39 Text', cursive;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Raleway', sans-serif;
 */
+
+a {
+  color:#e62c27;
+  font-weight:900;
+  text-decoration-line:none;
+  cursor:pointer;
+  transition: font-size .5s;
+}
+
+a:hover {
+
+  color:#EB4D47;
+  font-size: 2.4vw;
+
+}
 
 @media screen and (max-width: 768px){
   .hero{
@@ -17,6 +35,93 @@ font-family: 'Arvo', serif;
 }
 
 @media screen and (min-width: 1024px){
+
+  .aboutbody {
+
+  }
+
+  .header{
+      width: 55%;
+      float:left;
+      position:fixed;
+      display: table;
+      height:100vh;
+      background-image: url("nightcitybg.jpg");
+      background-size:cover;
+      background-repeat:no-repeat;
+  }
+
+  .paragraph{
+    display: table;
+    height: 100vh;
+    width:40%;
+    float:right;
+    overflow: hidden;
+  }
+
+  #para1 {
+
+  }
+
+  #para2 {
+
+    clear:both;
+  }
+
+  #para3 {
+    clear:both;
+  }
+
+  #para4 {
+    clear:both;
+  }
+
+  .paraheader{
+  font-family: 'Montserrat', sans-serif;
+  float:left;
+  display:table-cell;
+  vertical-align: middle;
+  font-size: 9vw;
+  line-height: 70vh;
+  color: #e62c27;
+  }
+
+  .info {
+    position:relative;
+    display: table-cell;
+    vertical-align: middle;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2vw;
+    color: #e62c27;
+    text-align: left;
+    text-shadow:
+
+  }
+
+  .fullscreen-bg {
+      position: fixed;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      overflow: hidden;
+      z-index: -100;
+  }
+
+  .fullscreen-bg__video {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: auto;
+      height: auto;
+      min-width: 100%;
+      min-height: 100%;
+      -webkit-transform: translate(-50%, -50%);
+         -moz-transform: translate(-50%, -50%);
+          -ms-transform: translate(-50%, -50%);
+  	    transform: translate(-50%, -50%);
+  }
+
   .hero {
     display: block;
     margin: 0 auto;
@@ -25,7 +130,7 @@ font-family: 'Arvo', serif;
 
     position: absolute;
     top: 50%;
-    transform: translateY(-60%);
+    transform: translateY(-50%);
   }
 
   .landing {
@@ -36,18 +141,20 @@ font-family: 'Arvo', serif;
 
   .bottom {
 
+    text-align: center;
     position:absolute;
     bottom: 0;
     left:50%;
-    margin-left: -18.5%;
+    margin-left: -22.5%;
 
   }
-
   li {
-    display: inline;
-    font-family: 'Nunito', sans-serif;
-    font-weight: 700;
+    display: inline-block;
+    text-align:center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-style:italic;
     font-size: 2.2vw;
-    color:#282224;
+    color:#e62c27;
     }
 }
