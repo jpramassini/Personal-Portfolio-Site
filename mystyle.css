@@ -35,16 +35,25 @@ a:hover {
 
 @media screen and (min-width: 1024px){
 
+  .aboutbody{
+    margin:0;
+  }
 
   .header{
       width: 55%;
       float:left;
       position:fixed;
-      display: table;
-      height:100vh;
+      padding:0px;
+      margin:0px;
+      border-radius:0px;
+      border:0px;
+      display: block;
+      height:100%;
       background-image: url("nightcitybg.jpg");
       background-size:cover;
       background-repeat:no-repeat;
+      background-attachment: fixed;
+      background-position: center;
   }
 
   .paragraph{
@@ -73,7 +82,7 @@ a:hover {
   }
 
   .paraheader{
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat', sans-serif; font-weight:900;font-style:italic;
   float:left;
   display:table-cell;
   vertical-align: middle;
@@ -86,7 +95,7 @@ a:hover {
     position:relative;
     display: table-cell;
     vertical-align: middle;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif;font-weight: 900;font-style: italic;
     font-size: 2vw;
     color: #e62c27;
     text-align: left;
@@ -148,9 +157,10 @@ a:hover {
   li {
     display: inline-block;
     text-align:center;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif; font-weight: 900; font-style: italic;
     font-weight: bold;
     font-style:italic;
+
     font-size: 2.2vw;
     color:#e62c27;
     }
