@@ -6,20 +6,6 @@ font-family: 'Libre Barcode 39 Text', cursive;
 font-family: 'Montserrat', sans-serif;
 font-family: 'Raleway', sans-serif;
 */
-a {
-  color:#e62c27;
-  font-weight:900;
-  text-decoration-line:none;
-  cursor:pointer;
-  transition: font-size .5s;
-}
-
-a:hover {
-
-  color:#EB4D47;
-  font-size: 2.4vw;
-
-}
 
 @media screen and (max-width: 768px){
   .hero{
@@ -34,6 +20,46 @@ a:hover {
 }
 
 @media screen and (min-width: 1024px){
+
+  .reglink {
+    color:#e62c27;
+    font-weight:900;
+    text-decoration-line:none;
+    cursor:pointer;
+    transition: font-size .5s;
+  }
+
+  .reglink:hover {
+    color:#EB4D47;
+    font-size: 2.4vw;
+  }
+  .navbar {
+    position:fixed;
+    top:0;
+    width:100%;
+    z-index: 100;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow:hidden;
+    background-color:#e62c27;
+  }
+  .navbarlink{
+    float: left;
+  }
+
+  .navbarlink a {
+    display: block;
+    color:white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration:none;
+  }
+
+  .navbarlink a:hover{
+    background-color: #EB4D47;
+  }
+
 
   .aboutbody{
     margin:0;
