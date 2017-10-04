@@ -1,10 +1,7 @@
 /*
 Google Fonts in use
-font-family: 'Nunito', sans-serif;
-font-family: 'Arvo', serif;
 font-family: 'Libre Barcode 39 Text', cursive;
 font-family: 'Montserrat', sans-serif;
-font-family: 'Raleway', sans-serif;
 */
 
 @media screen and (max-width: 768px){
@@ -82,7 +79,7 @@ font-family: 'Raleway', sans-serif;
       background-position: center;
   }
 
-  .header-no-bg{
+  .bg50{
     width: 50%;
     float:left;
     position:fixed;
@@ -92,6 +89,49 @@ font-family: 'Raleway', sans-serif;
     border:0px;
     display: block;
     height:100%;
+  }
+
+  .rightside {
+    clear: left;
+    float:right;
+    width: 50%;
+    height:100%;
+    position:relative;
+    top:14vh;
+    left:5vw;
+  }
+
+  form {
+    font-family: 'Montserrat', sans-serif; font-weight:900;font-style:italic;
+    font-size: 3vw;
+    color: #e62c27;
+    padding-top: 6.5vh;
+  }
+
+  input{
+    width:35vw;
+    height: 3vh;
+    border:5px;
+    border-color:#e62c27;
+  }
+
+  #message{
+    height:30vh;
+    width:35vw;
+    padding: 0;
+
+  }
+
+  #submit{
+    font-family: font-family: 'Montserrat', sans-serif; font-weight:900; font-style:italic;
+    font-size: 2vw;
+    text-align:center;
+    color:white;
+    background-color:#e62c27;
+    width:15vw;
+    height:5vh;
+    position:relative;
+    left:10vw;
   }
 
   .paragraph{
@@ -126,7 +166,7 @@ font-family: 'Raleway', sans-serif;
     /*display:table-cell;*/
     font-size: 6.7vw;
     line-height:normal;
-    padding-top:20vh;
+    padding-top:22.5vh;
     padding-left:3%;
     color: #e62c27;
   }
@@ -194,7 +234,6 @@ font-family: 'Raleway', sans-serif;
     margin: 0 auto;
     width: 100%;
     height:auto;
-
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
