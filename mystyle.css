@@ -108,17 +108,24 @@ font-family: 'Montserrat', sans-serif;
     padding-top: 6.5vh;
   }
 
-  input{
-    width:35vw;
+  input[type = "text"]{
+    width:30vw;
     height: 3vh;
-    border:5px;
-    border-color:#e62c27;
+    padding:4px;
+    border: 3.5px solid #e62c27;
+    border-radius: 3px;
+  }
+
+  input[type = "text"]:focus{
+    outline: none;
   }
 
   #message{
     height:30vh;
     width:35vw;
     padding: 0;
+    border: 3.5px solid #e62c27;
+    border-radius: 3px;
 
   }
 
