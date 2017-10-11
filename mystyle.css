@@ -109,6 +109,8 @@ font-family: 'Montserrat', sans-serif;
   }
 
   input[type = "text"]{
+    font-family: 'Montserrat', sans-serif; font-weight: 900;font-style:italic;
+    font-size: 1vw;
     width:30vw;
     height: 3vh;
     padding:4px;
@@ -130,7 +132,7 @@ font-family: 'Montserrat', sans-serif;
   }
 
   #submit{
-    font-family: font-family: 'Montserrat', sans-serif; font-weight:900; font-style:italic;
+    font-family: 'Montserrat', sans-serif; font-weight:900; font-style:italic;
     font-size: 2vw;
     text-align:center;
     color:white;
@@ -139,6 +141,8 @@ font-family: 'Montserrat', sans-serif;
     height:5vh;
     position:relative;
     left:10vw;
+    border: 1px #e62c27;
+    border-radius: 3px;
   }
 
   .paragraph{
