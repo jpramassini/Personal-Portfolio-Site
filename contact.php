@@ -10,7 +10,7 @@
 
     <link href="https://fonts.googleapis.com/css?family=Libre+Barcode+39+Text" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:700,900i" rel="stylesheet">
-
+    <script src='https://www.google.com/recaptcha/api.js'></script>
   </head>
 
   <body class="body-no-margin">
@@ -29,7 +29,7 @@
           <a href="projects.html">My Projects</a>
         </li>
         <li class="navbarlink">
-          <a href="contact.html">Contact</a>
+          <a href="contact.php">Contact</a>
         </li>
 
       </ul>
@@ -56,6 +56,7 @@
         <br>
         <textarea type="text" id="message" name="message"></textarea>
         <br>
+        <div class="g-recaptcha" data-sitekey="6LffFzQUAAAAAKK-k1VMrYgd5_3gVXNd9FyHntA8"></div>
         <input type="submit" id="submit" name="submit" value="Submit">
       </form>
     </div>
