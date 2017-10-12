@@ -10,7 +10,7 @@ if(isset($_POST['submit']) && !empty($_POST['submit'])){
       }
       }
         if($responseData->success){
-        
+
   $fromName = $_POST['name'];
   $fromEmail = $_POST['email'];
   //echo $fromEmail; //This is a debug line
@@ -22,10 +22,10 @@ if(isset($_POST['submit']) && !empty($_POST['submit'])){
   //$response = $_POST[g-recaptcha-response]
   //sends gathered info to email
   mail($to,$subject,$message,$headers);
-  header('Location:http://localhost:8888/personal-portfolio-site/contactcomplete.html');
+  header('Location:http://jpramassini.com/contactcomplete.html');
   //echo "Message sent, thanks!";  //This is a debug line.
 }
 else{
-  header('Location:http://localhost:8888/personal-portfolio-site./contact.php');
+  header('Location:http://jpramassini.com/contact.php');
 }
  ?>
