@@ -5,50 +5,67 @@
     <title>JP Ramassini</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" type="text/css" href="mystyle.css" />
+    <link rel="stylesheet" href="jquery.fancybox.css" />
 
     <link href="https://fonts.googleapis.com/css?family=Libre+Barcode+39+Text" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:700,900i" rel="stylesheet">
+
+    <script src="//code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js'></script>
+    <script src='menuHider.js'></script>
   </head>
 
   <body class="body-no-margin">
     <!--Upper Nav Bar standard code -->
-
     <nav>
-      <ul class="navbar">
-
-        <li class="navbarlink">
-          <a href="index.html">Home</a>
-        </li>
-        <li class="navbarlink">
-          <a href="aboutme.html">About Me</a>
-        </li>
-        <li class="navbarlink">
-          <a href="projects.html">My Projects</a>
-        </li>
-        <li class="navbarlink">
-          <a href="contact.html">Contact</a>
-        </li>
-
-      </ul>
+      <div class="topnav" id="myTopnav">
+        <a href="index.html">Home</a>
+        <a href="aboutme.html">About Me</a>
+        <a href="projects.html">Projects</a>
+        <a href="contact.html">Contact</a>
+        <a href="javascript:void(0);" class="icon" onclick="menuHider()">&#9776;</a>
+      </div>
     </nav>
-    <div class="topdiv">
-    </div>
 
-    <div class="leftthird">
-      <img class="leftthird" src="https://images-gmi-pmc.edge-generalmills.com/83c96245-22eb-4ef1-9446-ef21a746b0a7.jpg" />
-      <h2 class="overlaytester">Some text</h2>
-    </div>
+    <div class="wrapper">
+      <div class="grid-container">
+        <div class="grid-item">
+          <a href='jahxmedia-two.JPG' data-fancybox data-caption="Landing page for Rochester Rapper JahX (jahxmedia.com)">
+            <img src="jahxmedia-two.JPG" alt="Jah X Media Landing Page"  />
+          </a>
+        </div>
 
-    <div class="midthird">
-      <img class="midthird" src="https://images-gmi-pmc.edge-generalmills.com/83c96245-22eb-4ef1-9446-ef21a746b0a7.jpg" />
-      <h2 class="overlaytestermid">Some more text</h2>
-    </div>
+        <div class="grid-item">
+          <a href='jahxmedia-one.JPG' data-fancybox data-caption="Photo gallery for JahX. Fully functional on mobile and desktop. (jahxmedia.com/photos.html)">
+            <img src="jahxmedia-one.JPG" alt="JahXMedia Image Gallery"  />
+          </a>
+        </div>
 
-    <div class="rightthird">
-      <img class="rightthird" src="https://images-gmi-pmc.edge-generalmills.com/83c96245-22eb-4ef1-9446-ef21a746b0a7.jpg" />
-      <h2 class="overlaytester">Even More Text</h2>
-    </div>
+        <div class="grid-item">
+          <a href='wtt.jpg' data-fancybox data-caption="In-game layout for Google Trends-based multiplayer game What The Trend?!">
+            <img src="wtt.jpg" alt="What the Trend Game Screen"  />
+          </a>
+        </div>
 
+        <div class="grid-item">
+          <a href='wincome-all.jpg' data-fancybox data-caption="Brand Identity Mockup for a (yet unmade!) fintech company.">
+          <img src="wincome-all.jpg" alt="Wincome All Concept"  />
+        </a>
+        </div>
+
+        <div class="grid-item">
+          <a href='jpramassiniappicon.png' data-fancybox data-caption="App icon design, another piece of my Wincome branding.">
+            <img src="jpramassiniappicon.png" alt="Wincome Logo + Icon"  />
+          </a>
+        </div>
+
+        <div class="grid-item">
+          <a href='react-weather-app.jpg' data-fancybox data-caption="A realtime weather comparison app made in React. Utilizes Google Maps and OpenWeatherMap APIs.">
+            <img src="react-weather-app.jpg" alt="react-weather-app"  />
+          </a>
+        </div>
+      </div>
+    </div>
 
   </body>
 
