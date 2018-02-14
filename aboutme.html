@@ -8,34 +8,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="mystyle.css" />
     <!--Linking to Google fonts Arvo (first) and Nunito (second)-->
-    <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Nunito:400,700" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:900i" rel="stylesheet">
-
+    <script src='menuHider.js'></script>
   </head>
 
   <body class="body-no-margin">
-
     <nav>
-
-    <ul class="navbar">
-
-      <li class="navbarlink">
+      <div class="topnav" id="myTopnav">
         <a href="index.html">Home</a>
-      </li>
-      <li class="navbarlink">
         <a href="aboutme.html">About Me</a>
-      </li>
-      <li class="navbarlink">
-        <a href="projects.html">My Projects</a>
-      </li>
-      <li class="navbarlink">
-        <a href ="contact.html">Contact</a>
-      </li>
-
-    </ul>
-
+        <a href="projects.html">Projects</a>
+        <a href="contact.html">Contact</a>
+        <a href="http://www.github.com/jpramassini" target="_blank">Github</a>
+        <a href="javascript:void(0);" class="icon" onclick="menuHider()">&#9776;</a>
+      </div>
     </nav>
 
     <div class="header">
@@ -57,13 +43,13 @@
 
     <div class="paragraph" id="para3">
       <p class="info">
-        I have experience in HTML and CSS, Java, the Adobe Creative Suite including Premiere, Photoshop, and Illustrator, as well as music production software like FL Studio. I also have experience with online distribution through platforms like YouTube and Soundcloud.
+        I have experience in HTML, CSS, JS, React, JSON, Swift/iOS Development, interaction with GraphQL APIs, Java, the Adobe Creative Suite including Premiere, Photoshop, and Illustrator, as well as music production software like FL Studio.
       </p>
     </div>
 
     <div class="paragraph" id="para4">
       <p class="info">
-        To see some of my work, check out the <a class="reglink" href="projects.html">Projects</a> page. If you'd like to get in touch with me, the <a class= "reglink" href="contact.html">Contact</a> page is more your speed.
+        To see some of my work, check out the Projects page. If you'd like to get in touch with me, the Contact page is more your speed.
       </p>
     </div>
   </body>

@@ -5,15 +5,26 @@
   <head>
 
     <title>JP Ramassini</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" type="text/css" href="mystyle.css" />
     <!--Linking to Google fonts Barcode(first) and Monserrat (second)-->
     <link href="https://fonts.googleapis.com/css?family=Libre+Barcode+39+Text" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:700,900i" rel="stylesheet">
 
+    <script src='menuHider.js'></script>
   </head>
 
   <body>
+    <nav>
+      <div class="topnav" id="myTopnav">
+        <a href="index.html">Home</a>
+        <a href="aboutme.html">About Me</a>
+        <a href="projects.html">Projects</a>
+        <a href="contact.html">Contact</a>
+        <a href="http://www.github.com/jpramassini" target="_blank">Github</a>
+        <a href="javascript:void(0);" class="icon" onclick="menuHider()">&#9776;</a>
+      </div>
+    </nav>
 
     <!-- This div is the background video -->
     <div class="fullscreen-bg">
@@ -27,18 +38,6 @@
 
     <div>
 
-      <!-- Bottom nav elements -->
-      <nav>
-
-        <ul class="bottom">
-          <li><a class = "reglink" href="aboutme.html">ABOUT ME</a></li>
-          <li>-</li>
-          <li><a class = "reglink" href="projects.html">MY PROJECTS</a></li>
-          <li>-</li>
-          <li><a class = "reglink" href="contact.html">CONTACT</a></li>
-        </ul>
-
-      </nav>
     </div>
 
   </body>
