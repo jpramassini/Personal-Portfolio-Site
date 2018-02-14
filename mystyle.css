@@ -181,6 +181,7 @@ body {
     height:7.5vh;
     border: 1px #e62c27;
     border-radius: 3px;
+    -webkit-appearance: none;
   }
 
   .g-recaptcha{
@@ -413,10 +414,9 @@ body {
     background-color:#e62c27;
     width:15vw;
     height:5vh;
-    /*position:relative;
-    left:10vw;*/
     border: 1px #e62c27;
     border-radius: 3px;
+    -webkit-appearance: none;
   }
 
   .paragraph{
@@ -424,11 +424,11 @@ body {
     height: 100vh;
     width:40%;
     float:right;
+    padding-right: 1em;
     overflow: hidden;
   }
 
   #para1 {
-
   }
 
   #para2 {
@@ -470,6 +470,7 @@ body {
     vertical-align: middle;
     font-family: 'Montserrat', sans-serif;font-weight: 900;font-style: italic;
     font-size: 2.5em;
+    padding-right:1em;
     color: #e62c27;
     text-align: left;
   }
